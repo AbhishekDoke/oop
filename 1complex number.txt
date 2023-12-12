@@ -8,16 +8,7 @@ public:
 complex()
 {
 x=0;
-y=0;
-}
-complex operator+(complex);
-complex operator*(complex);
-friend istream &operator >>(istream &input,complex &t)
-{
-cout<<"Enter the real part:";
-input>>t.x;
-cout<<"Enter the imaginary part:";
-input>>t.y;
+
 }
 friend ostream &operator <<(ostream &output,complex &t)
 {
